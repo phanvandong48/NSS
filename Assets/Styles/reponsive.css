@@ -1,0 +1,55 @@
+/* Responsive for mobile devices with screen size 430x932 */
+@media (max-width: 430px) {
+    /* Adjust hero image size */
+    .hero img {
+      width: 90%;
+    }
+  
+    /* Adjust navigation */
+    .nav ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .nav a {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    /* Adjust main container layout */
+    .main-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .main-container .image {
+      width: 250px;
+      height: auto;
+      box-shadow: 0 0 20px red;
+    }
+  
+    .main-container .content {
+      width: 90%;
+      text-align: center;
+    }
+  
+    .content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .content .typewriter {
+      font-size: 1.8rem;
+    }
+  
+    .content p {
+      font-size: 0.9rem;
+    }
+  
+    .content button {
+      width: 80%;
+      font-size: 1rem;
+    }
+  }
+  
